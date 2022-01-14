@@ -57,3 +57,14 @@ h1 {
 .brand-image img{
     padding-right: 60px;
 }
+
+/* --------------------------------component start --------------------------------*/
+
+.component-heading{
+    text-align: center;
+}
+.components {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}

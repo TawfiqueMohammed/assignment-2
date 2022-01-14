@@ -12,6 +12,9 @@ main {
     margin-left: 120px;
     margin-top: 95px;
 }
+
+/* -------------------------------- intro section start --------------------------------*/
+
 .intro-section {
     display: flex;
     justify-content: space-between;
@@ -28,10 +31,10 @@ main {
 h1 {
     font-weight: 700px;
 }
-.intro-section > .blog-part p{
+.intro-section > .blog-part p {
     margin-bottom: 25px;
 }
-.prebook {
+.prebook-button {
     border: 0px solid transparent;
     justify-content: center;
     align-items: center;
@@ -42,7 +45,13 @@ h1 {
     padding: 9px;
     border-radius: 41px;
 }
-.brand-image-section{
+/* -------------------------------- intro section end --------------------------------*/
+
+
+
+/* ------------------------- brand image section start ---------------------------*/
+
+.brand-image-section {
     display: flex;
     justify-content: center;
     padding: 36px 62px;
@@ -54,13 +63,16 @@ h1 {
     align-items: center;
     gap: 61px;
 }
-.brand-image img{
+.brand-image img {
     padding-right: 60px;
 }
+/* -------------------------------- brand image section end --------------------------------*/
 
-/* --------------------------------component start --------------------------------*/
 
-.component-heading{
+
+/* -------------------------------- component start --------------------------------*/
+
+.component-heading {
     text-align: center;
 }
 .components {
@@ -68,3 +80,41 @@ h1 {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
 }
+.seemore-button {
+    display: block;
+    margin-left:  auto;
+    margin-right: 0;
+    background: none;
+    border: 0px solid transparent;
+    font-weight: 700;
+    width: 99px;
+    height: 24px;
+    color: #E02C6D;
+    padding: 9px;
+    
+}
+/* -------------------------------- component end --------------------------------*/
+
+
+
+
+/* -------------------------------- footer start --------------------------------*/
+
+
+.footer {
+    text-align: center;
+    color: white;
+    background-color: #0A0826;
+    padding: 50px 289px;
+}
+.footer .social-media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 17px;
+}
+.footer i{
+    font-size: 32px;
+    margin-right: 16px;
+}
+/* -------------------------------- footer end  --------------------------------*/
